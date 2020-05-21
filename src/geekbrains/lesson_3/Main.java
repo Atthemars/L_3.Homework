@@ -26,7 +26,9 @@ public class Main {
             System.out.println("Повторить игру еще раз? 1 – да / 0 – нет");
         }
         while (scanner.nextInt() == 1);//Повторять пока пользователь воодит еденицу
+        guessFruit();
     }
+
 
     //2 * Создать массив из слов String[]
     // words = {"apple", "orange", "lemon", "banana", "apricot", "avocado", "broccoli",
